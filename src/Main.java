@@ -62,9 +62,14 @@ public class Main {
         System.out.println(mojText.substring(2)); */
 
         // Prevod textoveho cisla na cislo
-        String textCislo = "55";
+      /*  String textCislo = "55";
         int prevedeneCislo = Integer.parseInt(textCislo);
-        System.out.println(prevedeneCislo + 5);
+        System.out.println(prevedeneCislo + 5); */
+
+        int x = 10;
+        int y = 9;
+        // x =! y; // x = x + y  da sa zapisat aj x +=y ...podobne s *,/,-
+        System.out.println(++x); //!= nerovna sa  // ++x pripocita 1  a --x odcita 1
 
 
     }
