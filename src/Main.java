@@ -33,8 +33,23 @@ public class Main {
         String meno = mojScanner.nextLine();
         System.out.println("Prajem pekny den " + meno);
   */
+/*
+        // moj pokus vylepsena kalkulacka
+        Scanner  mojScanner = new Scanner(System.in);
+
+        System.out.println("Zadaj prve cislo: ");
+        int prveCislo = mojScanner.nextInt();
+        System.out.println("Zadaj druhe cislo: ");
+        int druheCislo = mojScanner.nextInt();
+        System.out.println("Prepocet: ");
+        System.out.println(prveCislo + druheCislo);
+        System.out.println(prveCislo - druheCislo);
+        System.out.println(prveCislo * druheCislo);
+        System.out.println(prveCislo / druheCislo);
+        System.out.println(prveCislo % druheCislo);
+*/
 
 
     }
-   */
+
 }
