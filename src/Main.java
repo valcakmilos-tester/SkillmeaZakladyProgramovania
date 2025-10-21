@@ -23,11 +23,11 @@ public class Main {
         System.out.println(prveCislo / druheCislo);
 
         boolean pravdaNepravda = false; */
-/* ---nefungovali mi desatinne cisla
-        float prveDesCislo = 0.1;
-        float druheDesCislo = 0.2;
+ /*
+        float prveDesCislo = 0.1f;
+        float druheDesCislo = 0.2f;
         System.out.println(prveDesCislo + druheDesCislo);
-  */
+*/
   /*      System.out.println("Ahoj, zadaj meno: ");
         Scanner  mojScanner = new Scanner(System.in);
         String meno = mojScanner.nextLine();
@@ -66,11 +66,11 @@ public class Main {
         int prevedeneCislo = Integer.parseInt(textCislo);
         System.out.println(prevedeneCislo + 5); */
 
-        int x = 10;
+      /*  int x = 10;
         int y = 9;
         // x =! y; // x = x + y  da sa zapisat aj x +=y ...podobne s *,/,-
         System.out.println(++x); //!= nerovna sa  // ++x pripocita 1  a --x odcita 1
-
+*/
 
     }
 
