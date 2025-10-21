@@ -48,6 +48,23 @@ public class Main {
         System.out.println(prveCislo / druheCislo);
         System.out.println(prveCislo % druheCislo);
 */
+        //String metody
+     /*   Scanner  mojScanner = new Scanner(System.in);
+        System.out.println("Zadaj svoj text: ");
+        String mojText = mojScanner.nextLine();
+
+        System.out.println(mojText.length());
+        System.out.println(mojText.isEmpty());
+        System.out.println(mojText.toUpperCase());
+        System.out.println(mojText.toLowerCase());
+        System.out.println(mojText.contains("hoj"));
+        System.out.println(mojText.indexOf("e"));
+        System.out.println(mojText.substring(2)); */
+
+        // Prevod textoveho cisla na cislo
+        String textCislo = "55";
+        int prevedeneCislo = Integer.parseInt(textCislo);
+        System.out.println(prevedeneCislo + 5);
 
 
     }
