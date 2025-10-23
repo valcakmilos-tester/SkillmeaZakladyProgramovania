@@ -94,7 +94,7 @@ public class Main {
         int z = 12;
         System.out.println(!(x > y || z < x));
             */
-          //Podmienky
+        //Podmienky
   /*
         Scanner  mojScanner = new Scanner(System.in);
         System.out.println("Zadaj vek:");
@@ -240,7 +240,8 @@ public class Main {
 
         System.out.println(znamky[2]);
 */
-        //Pole- skrateny zapis
+ /*
+ //Pole- skrateny zapis
         // int[] znamky = new int[] {3, 5, 2, 3, 1}; // {vyplni prvky cize aj pole}
         // System.out.println(znamky[0]);
 
@@ -251,6 +252,26 @@ public class Main {
 
         // int[][] viceDimPole = new int [2][2];
         //        viceDimPole[0][0] = 83;
+*/
+
+//Smycky - Cykly
+
+        // for (int i = 1; i < 8; ++i)
+        //    System.out.println(i);
+        //for (int i =0; i < 100; i++) {
+        // System.out.println(i + ". Ahoj svet!");
+        // System.out.println(i * 5);
+
+        String[] menaStudentov = new String[] {"Jan", "Jozef", "Peter", "Katka", "Janka"};
+
+       // for (int i = 0; i < 4; i++) {
+       //     System.out.println(menaStudentov[i]);
+        for (int i = 0; i < menaStudentov.length; i++) {  //to iste, ale keby sa menilo velkost pola tak to mam osetrene
+             System.out.println(menaStudentov[i]);
+        }
+
+
+
 
     }
 }
