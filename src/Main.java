@@ -130,7 +130,37 @@ public class Main {
         }
 */
 
-        //Vypocet BMI
+        //Vypocet BMI hmotnost(kg / vyska (m) na druhu
+        // (18.5) - podvaha
+        // (>=18.5 && < 25) - optimalna vaha
+        // (>=25) - nadvaha
+
+        float vyska;
+        float hmotnost;
+        float bmi;
+
+        Scanner mojScanner = new Scanner(System.in);
+
+        System.out.println("Zadaj vysku(m):");
+        vyska = mojScanner.nextFloat();
+
+        System.out.println("Zadaj hmotnost (kg):");
+        hmotnost = mojScanner.nextFloat();
+
+        bmi = hmotnost / (vyska * vyska);
+        System.out.println("Tvoje BMI je: " + (hmotnost / (vyska * vyska)));
+            if (bmi >= 0 && bmi < 18.5) {
+            System.out.println("Mas podvahu");
+            }
+            else if (bmi >=18.5 && bmi < 25){
+            System.out.println("Optimalna vaha");
+            }
+            else if (bmi >=25) {
+            System.out.println("Mas nadvahu");
+             }
+            else {
+            System.out.println("Nejde zadat zapornu hodnotu");
+            }
 
 
     }
