@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
@@ -129,7 +130,7 @@ public class Main {
             System.out.println("Neda sa zadat zaporny vek");
         }
 */
-
+/*
         //Vypocet BMI hmotnost(kg / vyska (m) na druhu
         // (18.5) - podvaha
         // (>=18.5 && < 25) - optimalna vaha
@@ -161,6 +162,21 @@ public class Main {
             else {
             System.out.println("Nejde zadat zapornu hodnotu");
             }
+*/
+ /*       // Hra kocky  neparna=vyhravas, parna=prehravas
+        int hodeneCislo;
+        Random nahodnyGenerator = new Random();
+        hodeneCislo = nahodnyGenerator.nextInt(1,7);
+        System.out.println(hodeneCislo);
+        if (hodeneCislo % 2 == 1) {
+            System.out.println("Neparna vyhravas");
+        }
+        else {
+            System.out.println("Parna prehravas");
+        }
+
+*/
+
 
 
     }
