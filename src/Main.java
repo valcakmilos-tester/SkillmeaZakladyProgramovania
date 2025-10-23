@@ -208,6 +208,7 @@ public class Main {
                 System.out.println("Neplatne cislo dna");
         }
 */
+ /*
         Scanner mojScanner = new Scanner(System.in);
         int cisloDna;
         System.out.println("Zadaj cislo dna: ");
@@ -228,7 +229,8 @@ public class Main {
             default:
                 System.out.println("Neplatne cislo dna");
         }
+*/
+
 
     }
-
 }
