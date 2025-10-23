@@ -70,7 +70,29 @@ public class Main {
         int y = 9;
         // x =! y; // x = x + y  da sa zapisat aj x +=y ...podobne s *,/,-
         System.out.println(++x); //!= nerovna sa  // ++x pripocita 1  a --x odcita 1
-*/
+        */
+        /*
+        // Logicke vyrazy, ak obidve strany(alebo viac)  su pravdive vrati pravdu
+        int x = 10;
+        int y = 9;
+        int z = 12;
+        System.out.println(x > y && z > x);
+        */
+        /*
+        // Logicke vyrazy, OR aspon jedna strana je pravdiva, tak cely  vyraz je pravdivy
+        /*
+        int x = 10;
+        int y = 9;
+        int z = 12;
+        System.out.println(x > y || z > x || z > y);
+        */
+        /*
+        // Logicke vyrazy, ! logicka negacia aspon jedna strana je pravdiva, tak cely  vyraz je pravdivy
+        int x = 10;
+        int y = 9;
+        int z = 12;
+        System.out.println(!(x > y || z < x));
+            */
 
     }
 
