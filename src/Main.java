@@ -93,10 +93,46 @@ public class Main {
         int z = 12;
         System.out.println(!(x > y || z < x));
             */
-        //Podmienky
+          //Podmienky
+  /*
         Scanner  mojScanner = new Scanner(System.in);
         System.out.println("Zadaj vek:");
         int vek = mojScanner.nextInt();
+
+        if (vek >= 18 && vek >= 65) {
+            System.out.println("Uzivatel je dospely");
+        }
+        else if(vek >= 65) {
+            System.out.println("Uzivatel je senior");
+        }
+        else if(vek < 18 && vek >=0){
+            System.out.println("Uzivatel je dieta");
+        }
+        else {
+            System.out.println("Neda sa zadat zaporny vek");
+        }
+*/
+/*        Scanner  mojScanner = new Scanner(System.in);
+        System.out.println("Zadaj vek:");
+        int vek = mojScanner.nextInt();
+
+        if (vek >= 18) {
+            System.out.println("Uzivatel je dospely");
+            if (vek >= 65) {
+                System.out.println("Uzivatel je senior");
+            }
+        }
+        else if(vek < 18 && vek >=0){
+            System.out.println("Uzivatel je dieta");
+        }
+        else {
+            System.out.println("Neda sa zadat zaporny vek");
+        }
+*/
+
+        //Vypocet BMI
+
+
     }
 
 }
