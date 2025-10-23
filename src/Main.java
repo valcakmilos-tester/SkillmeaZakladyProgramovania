@@ -266,9 +266,16 @@ public class Main {
 
        // for (int i = 0; i < 4; i++) {
        //     System.out.println(menaStudentov[i]);
-        for (int i = 0; i < menaStudentov.length; i++) {  //to iste, ale keby sa menilo velkost pola tak to mam osetrene
-             System.out.println(menaStudentov[i]);
+
+        // for (int i = 0; i < menaStudentov.length; i++) {  //to iste, ale keby sa menilo velkost pola tak to mam osetrene
+        //     System.out.println(menaStudentov[i]);
+        //foreach
+        for(String jednoMeno: menaStudentov) {
+            System.out.println(jednoMeno);
         }
+
+
+
 
 
 
