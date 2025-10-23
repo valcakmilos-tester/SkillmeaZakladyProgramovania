@@ -176,7 +176,10 @@ public class Main {
         }
 
 */
-
+        Scanner mojScanner = new Scanner(System.in);
+        int cisloDna;
+        System.out.println("Zadaj cislo dna: ");
+        cisloDna = mojScanner.nextInt();
 
 
     }
