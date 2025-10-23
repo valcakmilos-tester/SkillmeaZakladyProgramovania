@@ -203,7 +203,8 @@ public class Main {
             case 7:
                 System.out.println("Je nedela");
                 break;
-
+            default:
+                System.out.println("Neplatne cislo dna");
         }
 
     }
