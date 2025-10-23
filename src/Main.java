@@ -93,7 +93,10 @@ public class Main {
         int z = 12;
         System.out.println(!(x > y || z < x));
             */
-
+        //Podmienky
+        Scanner  mojScanner = new Scanner(System.in);
+        System.out.println("Zadaj vek:");
+        int vek = mojScanner.nextInt();
     }
 
 }
