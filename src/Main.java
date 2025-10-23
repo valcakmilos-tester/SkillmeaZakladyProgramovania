@@ -230,7 +230,27 @@ public class Main {
                 System.out.println("Neplatne cislo dna");
         }
 */
+ /*       //Pole- klasicky - dlhy zapis
+        int[] znamky = new int[5]; // java v poli znamky vytvori 5 prazdnych schranok
+        znamky[0] = 3; // indexuje sa od pozicie 0
+        znamky[1] = 5;
+        znamky[2] = 2;
+        znamky[3] = 3;
+        znamky[4] = 1;
 
+        System.out.println(znamky[2]);
+*/
+        //Pole- skrateny zapis
+        // int[] znamky = new int[] {3, 5, 2, 3, 1}; // {vyplni prvky cize aj pole}
+        // System.out.println(znamky[0]);
+
+        String[] menaStudentov = new String[] {"Jan", "Jozef", "Peter", "Katka, Janka"};
+        // menaStudentov[3] = "Tereza";
+        System.out.println(menaStudentov[0].length()); // dlzka textu nulteho pola
+        System.out.println(menaStudentov.length); // velkost pola vratane 0
+
+        // int[][] viceDimPole = new int [2][2];
+        //        viceDimPole[0][0] = 83;
 
     }
 }
