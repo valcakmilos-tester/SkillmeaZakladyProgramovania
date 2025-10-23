@@ -176,6 +176,7 @@ public class Main {
         }
 
 */
+/*
         Scanner mojScanner = new Scanner(System.in);
         int cisloDna;
         System.out.println("Zadaj cislo dna: ");
@@ -202,6 +203,27 @@ public class Main {
                 break;
             case 7:
                 System.out.println("Je nedela");
+                break;
+            default:
+                System.out.println("Neplatne cislo dna");
+        }
+*/
+        Scanner mojScanner = new Scanner(System.in);
+        int cisloDna;
+        System.out.println("Zadaj cislo dna: ");
+        cisloDna = mojScanner.nextInt();
+        // prepadavanie switch-a bez break
+        switch (cisloDna) {
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+                System.out.println("Je pracovny den");
+                break;
+            case 6:
+            case 7:
+                System.out.println("Je vikend");
                 break;
             default:
                 System.out.println("Neplatne cislo dna");
