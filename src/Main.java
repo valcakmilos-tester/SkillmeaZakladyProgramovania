@@ -317,7 +317,7 @@ public class Main {
                 }
             }
 */
- /*       // Hra kocky  vylepsena verzia neparna=vyhravas, parna=prehravas
+ /*      // Hra kocky  vylepsena verzia neparna=vyhravas, parna=prehravas
 
         int hodeneCislo;
         boolean  riadiacaPremenna = true;
@@ -355,8 +355,42 @@ public class Main {
         Random nahodnyGenerator = new Random();
         Scanner mojScanner = new Scanner(System.in);
 
+        do {
+            potiahnutaKarta = nahodnyGenerator.nextInt(1, 14);
+            System.out.println("Potiahnuta karta je:" + potiahnutaKarta);
+            skoreHraca = skoreHraca + potiahnutaKarta;
+            System.out.println("Skore hraca je:" + skoreHraca);
 
+            if (skoreHraca > 21) {
+                System.out.println("Prehral si");
+                break;
+            }
+            System.out.println("Chceš ďalšiu kartu? (d = áno, q = nie)");
+            uzivatelskyVstup = mojScanner.nextLine();
 
+            if (uzivatelskyVstup.equals("d")) {
+                continue;
+            } else if (uzivatelskyVstup.equals("q")) {
+                while (skoreKrupiera < skoreHraca) {
+                    potiahnutaKarta = nahodnyGenerator.nextInt(1, 14);
+                    skoreKrupiera = skoreKrupiera + potiahnutaKarta;
+                }
+                break;
+
+            }
+        }
+            while (true) ;
+
+            System.out.println("Skore hraca: " + skoreHraca);
+            System.out.println("Skore krupiera: " + skoreKrupiera);
+            if ((skoreHraca > skoreKrupiera) && skoreHraca <= 21 ||(skoreKrupiera > 21)) {
+                System.out.println(("Vyhra si:"));
+            }else if (skoreKrupiera == skoreHraca)
+            System.out.println(("Je remiza:"));
+            else{
+                System.out.println(("Uzivatel prehral:"));
+
+            }
 
     }
 }
