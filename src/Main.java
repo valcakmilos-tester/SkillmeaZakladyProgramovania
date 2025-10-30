@@ -321,6 +321,7 @@ public class Main {
 
         int hodeneCislo;
         boolean  riadiacaPremenna = true;
+        String ukoncenie = "";
         Random nahodnyGenerator = new Random();
         Scanner mojScanner = new Scanner(System.in);
 
@@ -328,7 +329,6 @@ public class Main {
             System.out.println("Pre hod kockou stlac enter");
             mojScanner.nextLine();
 
-        }while(riadiacaPremenna);
 
         hodeneCislo = nahodnyGenerator.nextInt(1,7);
         System.out.println(hodeneCislo);
@@ -339,6 +339,12 @@ public class Main {
             System.out.println("Parna prehravas");
         }
 
+        System.out.println("Pre ukocenie zadaj pismeno q, pre pokracovanie stlac ENTER");
+        ukoncenie = mojScanner.nextLine();
+        if(ukoncenie.equals("q")) {
+            riadiacaPremenna = false;
+            }
 
+        }while(riadiacaPremenna);
     }
 }
