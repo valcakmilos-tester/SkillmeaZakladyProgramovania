@@ -276,16 +276,34 @@ public class Main {
  */
         // Vypis pola nasobku
         // int[] nasobky = new int[] {0, 10, 20, 30}
-        int[] nasobky = new int[21];
+/*        int[] nasobky = new int[21];
 
         for(int i=0; i < nasobky.length; i++){
             nasobky[i] = 10 * i;
         }
     for (int jedenNasobok: nasobky) {
         System.out.println(jedenNasobok);
-
     }
+*/
+        // Smycka- cyklus while
+/*        int riadiacaPremenna = 0;
+        while(riadiacaPremenna < 5) {
+            System.out.println(riadiacaPremenna);
+            riadiacaPremenna++;
+        }
+*/
+/*       int riadiacaPremenna = 0;
 
+        while(riadiacaPremenna != 0) {
+            System.out.println(riadiacaPremenna);
+            riadiacaPremenna++;
+        }
+
+        do {
+            System.out.println(riadiacaPremenna);
+            //riadiacaPremenna++;
+        } while(riadiacaPremenna != 0);
+*/
 
 
     }
