@@ -304,7 +304,7 @@ public class Main {
             //riadiacaPremenna++;
         } while(riadiacaPremenna != 0);
 */
-
+/*
         // break = ukoncenie smycky; continue = ukoncenie iterace a pokracovanie dalej
             int riadiacaPremenna = 0;
 
@@ -319,6 +319,18 @@ public class Main {
 
 
             }
+*/
+        // Hra kocky  vylepsena verzia neparna=vyhravas, parna=prehravas
+        int hodeneCislo;
+        Random nahodnyGenerator = new Random();
+        hodeneCislo = nahodnyGenerator.nextInt(1,7);
+        System.out.println(hodeneCislo);
+        if (hodeneCislo % 2 == 1) {
+            System.out.println("Neparna vyhravas");
+        }
+        else {
+            System.out.println("Parna prehravas");
+        }
 
 
     }
