@@ -317,7 +317,7 @@ public class Main {
                 }
             }
 */
-        // Hra kocky  vylepsena verzia neparna=vyhravas, parna=prehravas
+ /*       // Hra kocky  vylepsena verzia neparna=vyhravas, parna=prehravas
 
         int hodeneCislo;
         boolean  riadiacaPremenna = true;
@@ -346,8 +346,17 @@ public class Main {
             }
 
         }while(riadiacaPremenna);
-
+*/
         //BlackJack
+        int skoreHraca = 0;
+        int skoreKrupiera = 0;
+        int potiahnutaKarta = 0;
+        String uzivatelskyVstup;  //Zatial je to prazdna hodnota
+        Random nahodnyGenerator = new Random();
+        Scanner mojScanner = new Scanner(System.in);
+
+
+
 
     }
 }
