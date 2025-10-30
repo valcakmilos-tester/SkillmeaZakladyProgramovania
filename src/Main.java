@@ -305,6 +305,21 @@ public class Main {
         } while(riadiacaPremenna != 0);
 */
 
+        // break = ukoncenie smycky; continue = ukoncenie iterace a pokracovanie dalej
+            int riadiacaPremenna = 0;
+
+            while(true) {
+                System.out.println(riadiacaPremenna);
+                riadiacaPremenna++;
+                if (riadiacaPremenna > 5) {
+                    break;
+                    //continue;
+                }
+
+
+
+            }
+
 
     }
 }
