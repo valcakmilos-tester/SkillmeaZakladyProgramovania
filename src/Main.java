@@ -262,7 +262,7 @@ public class Main {
         // System.out.println(i + ". Ahoj svet!");
         // System.out.println(i * 5);
 
-        String[] menaStudentov = new String[] {"Jan", "Jozef", "Peter", "Katka", "Janka"};
+        // String[] menaStudentov = new String[] {"Jan", "Jozef", "Peter", "Katka", "Janka"};
 
        // for (int i = 0; i < 4; i++) {
        //     System.out.println(menaStudentov[i]);
@@ -270,13 +270,21 @@ public class Main {
         // for (int i = 0; i < menaStudentov.length; i++) {  //to iste, ale keby sa menilo velkost pola tak to mam osetrene
         //     System.out.println(menaStudentov[i]);
         //foreach
-        for(String jednoMeno: menaStudentov) {
+ /*       for(String jednoMeno: menaStudentov) {
             System.out.println(jednoMeno);
         }
- m
+ */
+        // Vypis pola nasobku
+        // int[] nasobky = new int[] {0, 10, 20, 30}
+        int[] nasobky = new int[21];
 
+        for(int i=0; i < nasobky.length; i++){
+            nasobky[i] = 10 * i;
+        }
+    for (int jedenNasobok: nasobky) {
+        System.out.println(jedenNasobok);
 
-
+    }
 
 
 
