@@ -315,14 +315,21 @@ public class Main {
                     break;
                     //continue;
                 }
-
-
-
             }
 */
         // Hra kocky  vylepsena verzia neparna=vyhravas, parna=prehravas
+
         int hodeneCislo;
+        boolean  riadiacaPremenna = true;
         Random nahodnyGenerator = new Random();
+        Scanner mojScanner = new Scanner(System.in);
+
+        do {
+            System.out.println("Pre hod kockou stlac enter");
+            mojScanner.nextLine();
+
+        }while(riadiacaPremenna);
+
         hodeneCislo = nahodnyGenerator.nextInt(1,7);
         System.out.println(hodeneCislo);
         if (hodeneCislo % 2 == 1) {
